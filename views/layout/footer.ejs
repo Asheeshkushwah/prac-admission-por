@@ -1,0 +1,92 @@
+ <!--footer start-->
+ <footer>
+    <div class="container-fluid bg-light" style="margin-top: 4rem;">
+        <div class="row">
+            <div class="col-md-4">
+                <h1 style="font-size: 30px; font-weight:400;margin-left: 60px; margin-top: 10px;">our
+                    constituent <br>colleges</h1>
+                <ul class="navbar-nav a">
+                    <li><a href=""> bca</a></li>
+                    <li><a href=""> mca</a></li>
+                    <li><a href="">b.tech</a></li>
+                    <li><a href="">be</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4 text-center">
+                <h1 style="font-size: 30px; font-weight:400; margin-top: 10px;">useful links</h1>
+                <ul class="navbar-nav mt-5">
+
+                    <li><a href="">home</a></li>
+                    <li><a href="">about</a></li>
+                    <li><a href="">contact</a></li>
+                    <li><a href=""> log out</a></li>
+
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h1 style="font-size: 30px; font-weight:400; margin-top: 10px;">personal <br>detail</h1>
+                <ul class="navbar-nav">
+                    <li><a href="">
+                            <p> <i class="fa-solid fa-envelope"></i>hr@gmail.com</p>
+                        </a></li>
+                    <li><a href="">
+                            <p> <i class="fa-solid fa-phone"></i>
+                                919899278276</p>
+                        </a></li>
+                    <li><a href="">
+                            <p>
+                                <i class="fa-solid fa-location-dot"></i>
+                                gwalior m.p india
+                            </p>
+                        </a></li>
+
+                </ul>
+            </div>
+
+
+        </div><!--row end-->
+    </div><!--container end-->
+</footer>
+<!--footer end-->
+<!-- Code injected by live-server -->
+<script>
+// <![CDATA[  <-- For SVG support
+if ('WebSocket' in window) {
+(function () {
+    function refreshCSS() {
+        var sheets = [].slice.call(document.getElementsByTagName("link"));
+        var head = document.getElementsByTagName("head")[0];
+        for (var i = 0; i < sheets.length; ++i) {
+            var elem = sheets[i];
+            var parent = elem.parentElement || head;
+            parent.removeChild(elem);
+            var rel = elem.rel;
+            if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+                var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+                elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+            }
+            parent.appendChild(elem);
+        }
+    }
+    var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+    var address = protocol + window.location.host + window.location.pathname + '/ws';
+    var socket = new WebSocket(address);
+    socket.onmessage = function (msg) {
+        if (msg.data == 'reload') window.location.reload();
+        else if (msg.data == 'refreshcss') refreshCSS();
+    };
+    if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+        console.log('Live reload enabled.');
+        sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+    }
+})();
+}
+else {
+console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+}
+// ]]>
+</script>
+</body>
+
+</html>
+

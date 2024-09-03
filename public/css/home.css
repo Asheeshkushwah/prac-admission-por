@@ -1,0 +1,45 @@
+.weblogo {
+    width: 90px;
+
+}
+
+.moblogo {
+    display: none;
+}
+
+body {
+    background-color: rgb(152, 87, 87);
+}
+
+div ul li a {
+    color: rgb(51, 49, 49);
+    text-decoration: none;
+    font-size: 17px;
+    font-family: monospace;
+    text-transform: capitalize;
+
+
+}
+
+.a {
+    margin-left: 90px;
+}
+
+.card-body:hover {
+    background-color: aqua;
+}
+
+
+@media(max-width:768px) {
+    .moblogo {
+        display: block;
+    }
+
+    .weblogo {
+        display: none;
+    }
+
+    .navbar {
+        background: hsl(227, 41%, 68%) !important;
+    }
+}
