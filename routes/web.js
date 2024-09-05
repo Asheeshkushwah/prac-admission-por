@@ -3,15 +3,9 @@ const FrontController = require('../controllers/Frontcontrollers')
 
 const route = express.Router()
 
-// route.get("/",(req,res) =>{
-//     res.send('hello world')
-// })
-// route.get('/about',(req,res) =>{
-//     res.send('about page')
-// })
 
 
-// route.get('/', FrontController.home)
+
 route.get('/home', FrontController.home)
 route.get('/about', FrontController.about)
 route.get('/', FrontController.login)

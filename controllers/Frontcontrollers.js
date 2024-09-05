@@ -1,19 +1,6 @@
 class FrontController {
     
-    // static home = async (req, res) => {
-    //     try {
-    //         //bad me likhna hai
-    //         res.send('home')
-
-    //     } catch (error) {
-    //         console.log(error)
-    //     }
-    // }
-
-
-
-    ///isko bad likhna hai
-    
+ 
     
     static home = async (req, res) => {
         try {
